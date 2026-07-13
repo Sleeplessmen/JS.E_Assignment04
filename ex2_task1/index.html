@@ -3,10 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Random Name</title>
+    <title>Random Name Generator</title>
   </head>
   <body>
-    <p id="name-display">Click the button to generate a random name.</p>
-    <button id="generate-btn">Generate Random Name</button>
+    <p id="guide" style="color: blue; font-weight: bold">
+      Click the button below to generate a random name.
+    </p>
+    <button
+      id="generate-btn"
+      style="
+        font-weight: bold;
+        background-color: white;
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+      "
+    >
+      Generate
+    </button>
+    <p
+      id="name-display"
+      style="
+        color: red;
+        font-weight: bold;
+        border: 1px solid #000000;
+        padding: 10px;
+      "
+    ></p>
+    <script src="script.js"></script>
   </body>
 </html>
