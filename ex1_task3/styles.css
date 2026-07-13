@@ -1,0 +1,19 @@
+#back-btn,
+#next-btn {
+  padding: 5px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#image-container {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 400px;
+  max-height: 300px;
+}
