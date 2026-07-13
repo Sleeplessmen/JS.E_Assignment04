@@ -1,12 +1,10 @@
 let names = ["Alice", "Bob", "Charlie", "David", "Eve"];
-let index = 0;
 
-const nameDisplay = document.getElementById("name-display");
-const generateBtn = document.getElementById("generate-btn");
+const para = document.getElementById("name-display");
 
-function displayRandomName() {
-  index = Math.floor(Math.random() * names.length);
-  nameDisplay.textContent = names[index];
+function chooseName() {
+  const index = Math.floor(Math.random() * names.length);
+  para.textContent = names[index];
 }
 
-generateBtn.addEventListener("click", displayRandomName);
+chooseName();
